@@ -1,0 +1,14 @@
+FROM mcr.microsoft.com/dotnet/sdk:8.0
+WORKDIR /app
+
+# setting up the tools needed
+RUN apt-get update && apt-get install -y curl
+RUN dotnet tool install --global dotnet-reportgenerator-globaltool
+
+# make the tool available
+ENV PATH="$PATH:/root/.dotnet/tools"
+
+COPY . .
+RUN chmod +x /app/run-tests.sh
+
+ENTRYPOINT ["/bin/bash", "/app/run-tests.sh"]
