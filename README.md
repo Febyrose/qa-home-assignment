@@ -32,3 +32,25 @@ API should return all validation errors in case of failure.
 1. Fork the repository
 2. Clone the repository on your local machine 
 3. Compile and Run application Visual Studio 2022.
+
+# Set Up
+
+1. This project contain CardValidation.Tests - Unit & integration tests
+2. **Docker Compose** setup for running the API and automated tests in containers
+
+# Prerequisites needed for execution
+
+1. .NET 8 SDK installed locally for executing in local.
+    Download link - https://dotnet.microsoft.com/en-us/download/dotnet/8.0
+2. Docker Desktop installed.  
+   Download linkj - https://www.docker.com/products/docker-desktop/
+
+# How to run
+1. clone the repository using the link
+2. Create a folder and open
+3. Build the project and run using docker compose- docker compose up --build
+
+# Results
+1. Check the results in the app/test-results(html file opens in browser and a .trx file can be opened in the Visual studio)
+2. Coverage can be found in the app/coverage.
+   
