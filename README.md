@@ -59,3 +59,4 @@ API should return all validation errors in case of failure.
 
 # Results
 1. Check the results in the app/test-results(html file opens in browser and a .trx file can be opened in the Visual studio)
+2. Coverage can be found in the app/coverage.
