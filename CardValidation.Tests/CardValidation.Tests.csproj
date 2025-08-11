@@ -19,11 +19,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <ProjectReference Include="..\CardValidation.Core\CardValidation.Core.csproj" />
   </ItemGroup>
-
+  
   <ItemGroup>
-    <PackageReference Include="coverlet.msbuild" Version="6.0.0" />
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
   </ItemGroup>
 
   <ItemGroup>

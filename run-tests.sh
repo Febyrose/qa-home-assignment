@@ -19,7 +19,7 @@ dotnet test CardValidation.Tests/CardValidation.Tests.csproj \
   -c Debug \
   --results-directory /app/test-results \
   --logger "trx;LogFileName=unit_test_results.trx" \
-  --logger "html;LogFileName=unit_test_results.html"
+  --logger "html;LogFileName=unit_test_results.html" \
   --collect:"XPlat Code Coverage"
 TEST_EXIT=$?
 set -e
