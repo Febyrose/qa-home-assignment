@@ -21,12 +21,12 @@ Feature: Credit Card Number Validation
       | cardNumber          | cardType        |
       | 4333333333333333    | 10           |
       | 4234123412341234    | 10           |
-      | 5555555555554444    | 20      |
-      | 5151515151515151    | 20      |
+      | 5523344556674444    | 20      |
+      | 5252566978564543    | 20      |
       | 2221523612358523    | 20      |
-      | 2720999999999996    | 20      |
-      | 378282246310005     | 30 |
-      | 348282246310005     | 30 |
+      | 2420342345657836    | 20      |
+      | 379291246310004     | 30 |
+      | 349291246310004     | 30 |
 
   Scenario Outline: Reject unsupported or malformed card numbers
     Given I input the credit card details:
