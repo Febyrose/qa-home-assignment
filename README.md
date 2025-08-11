@@ -43,7 +43,7 @@ API should return all validation errors in case of failure.
 1. .NET 8 SDK installed locally for executing in local.
     Download link - https://dotnet.microsoft.com/en-us/download/dotnet/8.0
 2. Docker Desktop installed.  
-   Download linkj - https://www.docker.com/products/docker-desktop/
+   Download link - https://www.docker.com/products/docker-desktop/
 
 # How to run
 1. clone the repository using the link
