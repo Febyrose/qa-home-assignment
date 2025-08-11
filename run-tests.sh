@@ -28,9 +28,6 @@ COV_FILE=$(find /app/test-results -maxdepth 3 -type f -name "coverage.cobertura.
 
 echo "--- Generating coverage HTML ---"
 if [ -n "$COV_FILE" ] && [ -f "$COV_FILE" ]; then
-  # copy to a fixed path
-  cp "$COV_FILE" /app/test-results/coverage.cobertura.xml
-
   reportgenerator \
     -reports:/app/test-results/coverage.cobertura.xml \
     -targetdir:/app/coverage/html-report \
